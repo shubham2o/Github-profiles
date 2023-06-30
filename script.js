@@ -32,7 +32,7 @@ function createUserCard(user) {
 
             <div class="user-info">
                 <h2>${name}</h2>
-                <p>${bio}</p>
+                <p>${bio ? bio : ""}</p>
 
                 <ul class="info">
                     <li>${followers}<strong>Followers</strong></li>
